@@ -344,3 +344,109 @@ footer p {
         width: 30px;
       }
      
+/* Adicione uma media query para telas pequenas (exemplo: 320x480 px) */
+@media screen and (max-width: 320px) {
+
+    .caixa-principal {
+        background-size: cover;
+        background-position: center top;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .portfolio {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    li {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .meu-nome {
+        left: 2%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h1 span {
+        font-size: 20px;
+    }
+
+    section img {
+        height: 120px;
+    }
+
+    section div h2 {
+        font-size: 24px;
+    }
+
+    section div p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    section div button {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .projetos h2 {
+        font-size: 30px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card img {
+        height: 60px;
+    }
+
+    .card h5 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .card a {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    footer h5 {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .social img {
+        height: 14px;
+    }
+
+    .social a {
+        height: 30px;
+        width: 30px;
+    }
+
+    .subir img {
+        height: 20px;
+        width: 20px;
+        margin-bottom: 10px;
+    }
+}
