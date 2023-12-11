@@ -343,7 +343,7 @@ footer p {
         height: 30px;
         width: 30px;
       }
-     
+
 /* Adicione uma media query para telas pequenas (exemplo: 320x480 px) */
 @media screen and (max-width: 320px) {
 
@@ -360,49 +360,49 @@ footer p {
     }
 
     .portfolio {
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 5px;
     }
 
     li {
-        font-size: 14px;
+        font-size: 12px;
         margin: 0;
     }
 
     .meu-nome {
         left: 2%;
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
 
     h1 {
-        font-size: 30px;
-    }
-
-    h1 span {
-        font-size: 20px;
-    }
-
-    section img {
-        height: 120px;
-    }
-
-    section div h2 {
         font-size: 24px;
     }
 
+    h1 span {
+        font-size: 16px;
+    }
+
+    section img {
+        height: 90px;
+    }
+
+    section div h2 {
+        font-size: 18px;
+    }
+
     section div p {
-        font-size: 12px;
-        margin-bottom: 15px;
+        font-size: 10px;
+        margin-bottom: 10px;
     }
 
     section div button {
-        font-size: 12px;
-        margin-bottom: 15px;
+        font-size: 10px;
+        margin-bottom: 10px;
     }
 
     .projetos h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .card {
@@ -410,43 +410,43 @@ footer p {
     }
 
     .card img {
-        height: 60px;
+        height: 45px;
     }
 
     .card h5 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .card p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .card a {
-        padding: 6px 12px;
-        font-size: 12px;
+        padding: 5px 10px;
+        font-size: 10px;
     }
 
     footer h5 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     footer p {
-        font-size: 12px;
+        font-size: 10px;
         margin-bottom: 5px;
     }
 
     .social img {
-        height: 14px;
+        height: 12px;
     }
 
     .social a {
-        height: 30px;
-        width: 30px;
+        height: 25px;
+        width: 25px;
     }
 
     .subir img {
-        height: 20px;
-        width: 20px;
-        margin-bottom: 10px;
+        height: 15px;
+        width: 15px;
+        margin-bottom: 5px;
     }
 }
